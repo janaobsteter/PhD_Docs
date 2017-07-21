@@ -1,0 +1,144 @@
+PSEUDO CODE - nastavi_cat
+
+nastavi_cat(pot po pedigreja - v obliki ID, FID, MID, EBV, **kwargs = vse številke za selekcijo)
+	predigre je class pedigree iz modula selection.py
+	dodaj starost: max(generacija) - generacija posameznika
+	nastavi spol iz AlphaSim Gender Fila
+	
+	IZBERI MOŠKE
+	iz starosti 0 RANDOM izberi moška teleta
+	iz starosti 1 RANDOM izberi bikce
+	
+	Če imamo progeny test:
+		iz starosti 0 po EBV izberi najboljše > vhlevljeni
+		iz starosti 1 po EBV izberi najboljše > mladi
+		iz starosti 1 po EBV izberi najboljše od mladih do vhlevljenih > pripust
+		iz starosti 2 - (2 + leta v testu) po EBV izberi najboljše > čakajoči
+		Iz starosti 2 po EBV OdDo (mladi do mladi + pripust2) izberi pripust2
+		iz starosti (2 + čakajoči do 2 + čakajoči + uporabaPB) izberi pozitivno testirane plemenske bike
+
+	Če je genomsko testiranje:
+		iz starosti 0 po EBV izberi najboljše > genomsko testiranje (to so vsi potomci NP)
+		iz starosti 1 po EBV OdDo (pozitivno testirani do vseh testiranih) > pripust
+		iz starosti 2 po EBV OdDo (pozitivno testirani do pozTest + pripust2) > pripust2
+		iz starosti (1 do 1 + uporabaPB) izberi genomsko pozitivno testirane plemenske bike
+
+	IZBERI ŽENSKE
+		Iz starosti 0 po EBV izberi ženske telice (tiste, ki preživijo)
+		Iz starosti po EBV izberi plemenske telice
+		iz starosti 2 do (2 + kraveUporaba) izberi številoKrav (minus število izločenihLetno * letoUporabe)
+		Iz starosti bmOdbira do (bmOdbira + bmUporaba) izberi plemenske bikovske matere
+		
+		Izloči ostale živali, ki imajo prazno kategorijo
+
+		Dodaj novo generacijo - # novorojenih in #potomcev načrtnih parjenj
+		Določi matere NR - krave in potomcem NP - bikovske matere
+		Določi očete - potomcev NP pozitivno testirane bike, NR - pozitivno testirani biki + pripust + mladi
+		
+		Shrani kategorije, spol, active
+		Zapiši ExternalPedigre
+
+
+PSEUDO CODE - selekcija_total
+	
+	selekcija_total	
+		predigre je class pedigree iz modula selection.py
+
+		Če je v pedigreju samo ena generacija - nastavi samo spol novorojenim
+			nastavi novorjene in potomceNP in zapiši kategorije, spol in active			
+
+		Če je v pedigreju več generacij:
+			preberi kategorije, spol in active iz prejšnjega kroga
+
+		Nastavi prebrani spol in active
+		Nastavi kategorije 'izločeni' vsem, ki so bili izločeni tudi v prejšnjem krogu
+		dodaj starost: max(generacija) - generacija posameznika
+	
+		ŽENSKE
+		vse ženske potomke NP gredo v ženske telice (aktivne)
+		izmed novorojenih po EBV (top) izberi ženske telice (tiste, ki preživijo od NR)
+		preostale izloči
+		Če imeš telice:
+			Iz ženskih telic (v prejšnjem krogu) po EBV izberi plemenske telice
+			Preostale izloči		
+		Če imaš plemenske telice:
+			prestavi plemenske telice v krav
+		Če imaš dovolj stare krave (bmOdbira):
+			izberi plemenske bikovske matere (iz krav)
+		Če imaš plemenske telice:
+			prestavljaj jih naprej v letih bmOdbira - bmUporaba
+			zadnjo leto spremeni kategorijo iz plemenskih BM v BM
+			
+		Iz let 2 do (2 + kraveUporaba) izberi krave (vsako leto IzlocenihVLetu * letavuporabi manj)
+		Določeno število krav vsako leto izloči
+		Krave po zadnji določeni laktaciji (kraveUporaba) izloči
+		Izloči tudi odslužene BM
+
+		MOŠKI
+		Če imaš moška teleta:
+			na RANDOM izberi bikce
+			preostale izloči (funkcija random napisana tako, da izloči samo živali, ki imajo prazno kategorijo)
+
+		Če imaš bikce:
+			izloči vse
+		
+		Če je Progeny test:
+			Iz potomcev NP po EBV (top) izberi vhlevljene bike
+			Preostale potomce NP izloči
+			Če imaš že vhljevljene:
+				Iz vhlevljenih po EBV (top) izberi mlade bike
+				Preostali gredo v pripust
+			Če imaš mlade:
+				Prestavi jih v čakajoče bike (vse)
+			Če imaš čakajoče:
+				za leta od 2 do (2 + Leta v testu) jim podaljšuj status čakajočih bikov
+			Če imaš čakajoče:
+				Izberi po EBV (top) pozitivno testirane bike, preostale daj med izločene
+
+		Če je genomsko testiranje:
+			potomceNP vse prestavi v genomsko testiranje
+			Če imaš bike v genomskem testu:
+				po EBV (top) izberi genomsko poz. testirane bike
+				preostali gredo v pripust
+
+		Če imaš prvo leto pripusta:
+			glede na leta uporabe v pripustu daj naprej določen % bikov, druge izloči
+		Bike po drugem letu pripusta izloči
+		
+		Če imaš plemenske bike (klasične / gen):
+			jih prestavljaj naprej (ampak active = 2)
+
+		Dodaj novo generacijo NR in potomcev NP
+		Določi matere NR - krave in potomcem NP - bikovske matere
+		Določi očete - potomcev NP pozitivno testirane bike, NR - pozitivno testirani biki + pripust + mladi
+		
+		Shrani kategorije, spol, active
+		Zapiši ExternalPedigre
+		
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+			

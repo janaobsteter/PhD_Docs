@@ -1,0 +1,19 @@
+ROUND= #number of selection generations
+for round in range(0, ROUNDS+1):
+
+
+If round == 0: BURN IN !!!!!!!!!!!!!
+	Use InternalPedigree
+	Set burn-in gen, selection generations
+	#sires, #dams	
+	Flexibility:	GenFlex ON: 1 - (burn-in + 1)
+			SelFlex ON: ImportExternalPedigreeFor burn-in +1 
+				    TBV = 1
+
+If round > 0:
+	Use ExternalPedigree
+	Copy the ExternalPedigree to SelectionFolder ROUND
+	#sires, dams irrelevant
+	Flexibility: 	GenFlex ON: (burn-in + ROUND) - (burn-in + ROUND)
+			SelFlex ON: ImportExternalPedigreeFor (burn-in + ROUND)
+			            TBV = 2

@@ -1,0 +1,35 @@
+total 51M
+-rw-rw-r-- 1 jana jana 17M jun  1 02:46 Chip1Genotype.txt
+-rw-rw-r-- 1 jana jana 34M jun  1 02:46 Chip1Phase.txt
+jana@zivkis1701:~/bin/AlphaSim1.05Linux$ ls -lh SimulatedData
+total 33G
+drwxrwxr-x 2 jana jana 4,0K maj 31 17:20 AllIndividualsSnpChips
+-rw-rw-r-- 1 jana jana 1,1K jun  1 02:46 Chip1SnpInformation.txt
+-rw-rw-r-- 1 jana jana  59M jun  1 02:46 FixedQtn.txt
+-rw-rw-r-- 1 jana jana  26M jun  1 02:32 Gender.txt
+-rw-rw-r-- 1 jana jana 8,0K jun  1 02:46 GeneticMeansPerGeneration.txt
+-rw-rw-r-- 1 jana jana  450 jun  1 02:46 GlobalRecombLocationMax.txt
+-rw-rw-r-- 1 jana jana  158 maj 31 17:15 InitialTraitMeans.txt
+-rw-rw-r-- 1 jana jana 3,3K jun  1 02:32 NbOfIndivInEachGen.txt
+-rw-rw-r-- 1 jana jana  738 maj 31 15:43 NbOfSegSitesPerChrom.txt
+-rw-rw-r-- 1 jana jana  49M jun  1 02:29 PedigreeAndGeneticValues_cat.txt
+-rw-rw-r-- 1 jana jana  83M jun  1 02:46 PedigreeAndGeneticValues.txt
+-rw-rw-r-- 1 jana jana 253M jun  1 02:32 Pedigree.txt
+-rw-rw-r-- 1 jana jana  494 maj 31 17:15 ProportionOfVariationExplainedByNumberOfQtn.txt
+-rw-rw-r-- 1 jana jana  28M jun  1 02:41 RecombinationCount.txt
+-rw-rw-r-- 1 jana jana 998K maj 31 17:15 RestrictedQtnAdditEffects.txt
+-rw-rw-r-- 1 jana jana 998K maj 31 17:15 RestrictedQtnAverAlleleSubstEffects.txt
+-rw-rw-r-- 1 jana jana 1,4M maj 31 17:15 RestrictedQtnDominEffects.txt
+-rw-rw-r-- 1 jana jana  17G jun  1 02:45 RestrictedQtnIndivGenotypes.txt
+-rw-rw-r-- 1 jana jana 2,5M maj 31 17:15 RestrictedQtnInformation.txt
+-rw-rw-r-- 1 jana jana  16K jun  1 02:46 TotalGenicAndGeneticVariancesPerGeneration.txt
+-rw-rw-r-- 1 jana jana  598 maj 31 17:15 TraitVarianceComponentsCovariance.txt
+-rw-rw-r-- 1 jana jana   25 maj 31 17:15 TraitVarianceComponentsResidualCholQtnModel1.txt
+-rw-rw-r-- 1 jana jana   25 maj 31 17:15 TraitVarianceComponentsResidualCholQtnModel2.txt
+-rw-rw-r-- 1 jana jana  572 maj 31 17:15 TraitVarianceComponents.txt
+-rw-rw-r-- 1 jana jana 998K maj 31 17:15 UnrestrictedQtnAdditEffects.txt
+-rw-rw-r-- 1 jana jana 998K maj 31 17:15 UnrestrictedQtnAverAlleleSubstEffects.txt
+-rw-rw-r-- 1 jana jana 1,4M maj 31 17:15 UnrestrictedQtnDominEffects.txt
+-rw-rw-r-- 1 jana jana  17G jun  1 02:45 UnrestrictedQtnIndivGenotypes.txt
+-rw-rw-r-- 1 jana jana 2,5M maj 31 17:15 UnrestrictedQtnInformation.txt
+

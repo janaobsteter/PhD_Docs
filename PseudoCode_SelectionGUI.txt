@@ -1,0 +1,41 @@
+PSEUDO CODE - Selection_GUI
+
+function selekcija
+najprej zajemi parametre za AlphaSim iz GUI
+	ali izvesti tudi burnIn in koliko generacij
+	število novorojenih, število mater in očetov v vsaki generaciji
+	koliko krogov selekcije skupno in koliko jih izvesti v tem runu
+	AlphaSim Directory
+	
+Če naj se izvede tudi BurnIn:
+	prestavi se v AlphaSimDir in skopiraj template AlphaSimSpec file sem
+	Nastavi pedigre na Internal, število NR, mater, očetov
+	Vklopi GenFlex, ComputeTBV na 1 in nastavi uvoz External Pedigreja za eno generacijo po burn inu
+	Poženi AlphaSim
+
+
+Če že obstaja Blupdat file (pomeni, da je iz prejšnjih runov), ga pobriši
+
+
+
+Za vsak krog selekcije:
+	Pedigreju iz prejšnje generacije (AlphaSim OutputFile) dodaj kategorije, spol, active, age
+	Pripravi ped file za blupf90 (iz AlphaSIm PedigreeAndGeneticValues)
+	Pripravi dat file za mleko za blupf90 (odstranjeni so fenotipi moških živali in ženskih telic)
+	Skopiraj template blup file v AlphaSimDir
+	Nastavi paramFile za blupf90 - pridobi podatke o additivni var in var za ostanek iz ALphaSim OutputFile (TraitVar)
+	Poženi blupf90
+	Iz blupf90 Output Fila solutions pridobi EBV in jih dodaj pedigreju - to je osnova za selection.py class pedigree (ID, FID, MID, EBV - doda se še sex, age, cat, active)
+	
+	Če je to prvi krog po burn inu:
+		nastavi kategorije in zapiši Pedigre, kategorgije, spol in active (tukaj tudi dodaš novo gen in določiš starše), zapiši externalPed
+	Če je to > 1. krog:
+		izvedi selekcijo glede na kategorije v prejšnjem krogu (tukaj tudi dodaš novo gen in določiš starše), zapiši externalPed
+
+	Ustvari direktorij AlphaSImDir/Selection/SelectionFolderKROG (če še ne obstaja):
+		skopiraj ExternalPed v odgovarjajočo mapo
+	Skopiraj template ALphaSimSpec in nastavi parametre:
+		ExternalPedigre
+		Nastavi generacijo, za katero poganjaš AlphaSim
+		ComputeTBV na 2
+		Poženi AlphaSim

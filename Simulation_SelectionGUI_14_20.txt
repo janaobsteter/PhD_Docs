@@ -1,0 +1,532 @@
+#####################################################################################################
+#TO JE OUTPUT OD PYTHON SCRIPTA SELECTION_GUI, SELECTED GENERATIONS 4 - 19
+#####################################################################################################
+
+
+/usr/bin/python2.7 /home/jana/Genotipi/Genotipi_CODES/Selection_GUI.py
+[1] 0.5264009
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           67103
+k             10862
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+bm               46
+pb               32
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+90
+izl           67103
+k             10862
+nr             6610
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+potomciNP        90
+bm               46
+pb               32
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+     71480
+1    15596
+2     6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  14
+  
+  Selection is performed using TBV
+  
+  Generation  13 / Selection cycle   4
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.28014             0.23595
+ 
+  Last Generation  14
+              EBVacc              GVmean                VarG
+             1.00000             0.39640             0.16931
+  
+  
+  Time duration of AlphaSim =             260.3480 seconds.
+  
+[1] 0.534218
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           73799
+k             10862
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+bm               46
+pb               36
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+90
+izl           73799
+k             10862
+nr             6610
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+potomciNP        90
+bm               46
+pb               36
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+     78180
+1    15596
+2     6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  15
+  
+  Selection is performed using TBV
+  
+  Generation  14 / Selection cycle   5
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.39640             0.16931
+ 
+  Last Generation  15
+              EBVacc              GVmean                VarG
+             1.00000             0.43767             0.18355
+  
+  
+  Time duration of AlphaSim =             262.5240 seconds.
+  
+[1] 0.5373546
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           80495
+k             10862
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+bm               46
+pb               40
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+90
+izl           80495
+k             10862
+nr             6610
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+potomciNP        90
+bm               46
+pb               40
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+     84880
+1    15596
+2     6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  16
+  
+  Selection is performed using TBV
+  
+  Generation  15 / Selection cycle   6
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.43767             0.18355
+ 
+  Last Generation  16
+              EBVacc              GVmean                VarG
+             1.00000             0.48956             0.19157
+  
+  
+  Time duration of AlphaSim =             277.7600 seconds.
+  
+[1] 0.5461655
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           87191
+k             10862
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+bm               46
+pb               44
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+90
+izl           87191
+k             10862
+nr             6610
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+potomciNP        90
+bm               46
+pb               44
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+     91580
+1    15596
+2     6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  17
+  
+  Selection is performed using TBV
+  
+  Generation  16 / Selection cycle   7
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.48956             0.19157
+ 
+  Last Generation  17
+              EBVacc              GVmean                VarG
+             1.00000             0.48222             0.22969
+  
+  
+  Time duration of AlphaSim =             278.4560 seconds.
+  
+[1] 0.5506616
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           93887
+k             10862
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+pb               48
+bm               46
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+90
+izl           93887
+k             10862
+nr             6610
+telF           3236
+pt             2750
+telM           2445
+bik12           402
+pBM             138
+potomciNP        90
+pb               48
+bm               46
+vhlevljeni       27
+cak              24
+pripust1         19
+pripust2          8
+mladi             8
+Name: cat, dtype: int64
+     98280
+1    15596
+2     6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  18
+  
+  Selection is performed using TBV
+  
+  Generation  17 / Selection cycle   8
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.48222             0.22969
+ 
+  Last Generation  18
+              EBVacc              GVmean                VarG
+             1.00000             0.60696             0.20310
+  
+  
+  Time duration of AlphaSim =             283.1760 seconds.
+  
+[1] 0.5582418
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           100583
+k              10862
+telF            3236
+pt              2750
+telM            2445
+bik12            402
+pBM              138
+pb                52
+bm                46
+vhlevljeni        27
+cak               24
+pripust1          19
+pripust2           8
+mladi              8
+Name: cat, dtype: int64
+90
+izl           100583
+k              10862
+nr              6610
+telF            3236
+pt              2750
+telM            2445
+bik12            402
+pBM              138
+potomciNP         90
+pb                52
+bm                46
+vhlevljeni        27
+cak               24
+pripust1          19
+pripust2           8
+mladi              8
+Name: cat, dtype: int64
+     104980
+1     15596
+2      6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  19
+  
+  Selection is performed using TBV
+  
+  Generation  18 / Selection cycle   9
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.60696             0.20310
+ 
+  Last Generation  19
+              EBVacc              GVmean                VarG
+             1.00000             0.63933             0.21710
+  
+  
+  Time duration of AlphaSim =             313.6720 seconds.
+  
+[1] 0.5681492
+{'ptn': 2750, 'nrMn': 3350, 'kraveUp': 4, 'telFn': 3236, 'pripust2n': 8, 'stNBn': 6700, 'pripustDoz': 27, 'telMn': 2445, 'pripustUp': 1.4, 'bmUp': 3, 'pozitivnoTestDoz': 220, 'StBurnInGen': 10, 'NumberOfDams': 0, 'mladiDoz': 250, 'bik12n': 402, 'nrFn': 3350, 'mladin': 8, 'NumberOfSires': 0, 'bmn': 139, 'pripust1n': 19, 'potomciNPn': 45, 'vhlevljenin': 27, 'StSelGen': 10, 'BurnInYN': False, 'bmOdbira': 2, 'cak': 3, 'pbn': 4, 'pbUp': 5}
+izl           107279
+k              10862
+telF            3236
+pt              2750
+telM            2445
+bik12            402
+pBM              138
+pb                56
+bm                46
+vhlevljeni        27
+cak               24
+pripust1          19
+pripust2           8
+mladi              8
+Name: cat, dtype: int64
+90
+izl           107279
+k              10862
+nr              6610
+telF            3236
+pt              2750
+telM            2445
+bik12            402
+pBM              138
+potomciNP         90
+pb                56
+bm                46
+vhlevljeni        27
+cak               24
+pripust1          19
+pripust2           8
+mladi              8
+Name: cat, dtype: int64
+     111680
+1     15596
+2      6724
+Name: active, dtype: int64
+ 
+                              **********************                              
+                              *                    *                              
+                              *      AlphaSim      *                              
+                              *                    *                              
+                              **********************
+                              VERSION:commit-1801eac                              
+               Software for simulating phenotype, sequence, and SNP data        
+        
+ 
+                                     No Liability              
+                           Bugs to John.Hickey@roslin.ed.ac.uk
+ 
+ Input File: AlphaSimSpec.txt
+ 
+ Modelling population history using InternalCattle
+  NOTE: A single chip with one locus will still be created
+  NOTE: When writing out the full sequences,
+  WriteFullSequenceOutOnOff must be On from the first burn-in generation
+ 
+  Pedigree imported for generation  20
+  
+  Selection is performed using TBV
+  
+  Generation  19 / Selection cycle  10
+  External pedigree successfully imported
+              EBVacc              GVmean                VarG
+             1.00000             0.63933             0.21710
+ 
+  Last Generation  20
+              EBVacc              GVmean                VarG
+             1.00000             0.67555             0.19668
+  
+  
+  Time duration of AlphaSim =             316.1680 seconds.
+  
+
